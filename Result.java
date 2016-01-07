@@ -22,7 +22,7 @@ import org.junit.runner.notification.RunListener;
  *
  * @since 4.0
  */
-public class Result implements Serializable {
+public class Result implements Serializable {// testbranch2
     private static final long serialVersionUID = 1L;
     private static final ObjectStreamField[] serialPersistentFields =
             ObjectStreamClass.lookup(SerializedForm.class).getFields();
